@@ -1,0 +1,52 @@
+
+.About-img {
+  height: 400px;
+  width: 400px;
+  /* margin: auto 0; */
+  border-radius: 2rem;
+}
+.About-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.course{
+    border: 2px solid;
+    border-radius: 25px;
+    font-size: 1.75rem;
+  color: black;
+  margin: 1rem;
+  padding: 1rem;
+}
+.course p{
+  font-size: 1rem;
+  color: rgb(81, 80, 80);
+}
+.About-practical {
+
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+
+}
+.icon {
+  height: 2rem;
+  cursor: pointer;
+  color: black;
+}
+@media screen and (max-width:768px) {
+  .hero{
+    display: flex;
+    flex-direction: column;
+  }
+  .main-details{
+    flex-direction: column;
+  }
+  .About-practical{
+    flex-direction: column;
+  }
+  .About-section{
+    flex-direction: column;
+  }
+}
