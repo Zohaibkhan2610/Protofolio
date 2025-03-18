@@ -1,0 +1,12 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"  # npm, yarn, pip, maven, etc.
+    directory: "/"  # Root directory of the project
+    schedule:
+      interval: "daily"  # daily, weekly, or monthly
+    open-pull-requests-limit: 5  # Maximum open PRs
+  
+  - package-ecosystem: "github-actions"  # GitHub Actions updates
+    directory: "/"  
+    schedule:
+      interval: "weekly"
